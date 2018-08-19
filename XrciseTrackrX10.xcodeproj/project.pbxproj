@@ -12,13 +12,17 @@
 		C5B08E94210FFE2C00DC0C7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B08E92210FFE2C00DC0C7D /* Main.storyboard */; };
 		C5B08E96210FFE2D00DC0C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B08E95210FFE2D00DC0C7D /* Assets.xcassets */; };
 		C5B08E99210FFE2D00DC0C7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B08E97210FFE2D00DC0C7D /* LaunchScreen.storyboard */; };
-		C5B08E9E210FFE2D00DC0C7D /* XrciseTrackr WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C5B08E9D210FFE2D00DC0C7D /* XrciseTrackr WatchKit App.app */; };
+		C5B08E9E210FFE2D00DC0C7D /* XrciseTrackrX10 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C5B08E9D210FFE2D00DC0C7D /* XrciseTrackrX10 WatchKit App.app */; };
 		C5B08EA4210FFE2D00DC0C7D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B08EA2210FFE2D00DC0C7D /* Interface.storyboard */; };
 		C5B08EA6210FFE2E00DC0C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B08EA5210FFE2E00DC0C7D /* Assets.xcassets */; };
-		C5B08EAD210FFE2E00DC0C7D /* XrciseTrackr WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C5B08EAC210FFE2E00DC0C7D /* XrciseTrackr WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C5B08EAD210FFE2E00DC0C7D /* XrciseTrackrX10 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C5B08EAC210FFE2E00DC0C7D /* XrciseTrackrX10 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C5B08EB2210FFE2E00DC0C7D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B08EB1210FFE2E00DC0C7D /* InterfaceController.swift */; };
 		C5B08EB4210FFE2E00DC0C7D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B08EB3210FFE2E00DC0C7D /* ExtensionDelegate.swift */; };
 		C5B08EB6210FFE2E00DC0C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B08EB5210FFE2E00DC0C7D /* Assets.xcassets */; };
+		C5B08EC8211003AC00DC0C7D /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B08EC7211003AC00DC0C7D /* HealthKit.framework */; };
+		C5B08ECB211003B700DC0C7D /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B08ECA211003B700DC0C7D /* HealthKit.framework */; };
+		C5B08ECD211004BE00DC0C7D /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B08ECC211004BE00DC0C7D /* HealthKitManager.swift */; };
+		C5B08ECF2110074900DC0C7D /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B08ECC211004BE00DC0C7D /* HealthKitManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +49,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				C5B08EAD210FFE2E00DC0C7D /* XrciseTrackr WatchKit Extension.appex in Embed App Extensions */,
+				C5B08EAD210FFE2E00DC0C7D /* XrciseTrackrX10 WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,7 +60,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				C5B08E9E210FFE2D00DC0C7D /* XrciseTrackr WatchKit App.app in Embed Watch Content */,
+				C5B08E9E210FFE2D00DC0C7D /* XrciseTrackrX10 WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,22 +68,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C5B08E8B210FFE2C00DC0C7D /* XrciseTrackr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XrciseTrackr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55E4D0A2112BDCA00E0F593 /* XrciseTrackr WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "XrciseTrackr WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		C55E4D0B2112BDD600E0F593 /* XrciseTrackr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XrciseTrackr.entitlements; sourceTree = "<group>"; };
+		C5B08E8B210FFE2C00DC0C7D /* XrciseTrackrX10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XrciseTrackrX10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B08E8E210FFE2C00DC0C7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5B08E90210FFE2C00DC0C7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C5B08E93210FFE2C00DC0C7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5B08E95210FFE2D00DC0C7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5B08E98210FFE2D00DC0C7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5B08E9A210FFE2D00DC0C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5B08E9D210FFE2D00DC0C7D /* XrciseTrackr WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XrciseTrackr WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B08E9D210FFE2D00DC0C7D /* XrciseTrackrX10 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XrciseTrackrX10 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B08EA3210FFE2D00DC0C7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		C5B08EA5210FFE2E00DC0C7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5B08EA7210FFE2E00DC0C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5B08EAC210FFE2E00DC0C7D /* XrciseTrackr WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "XrciseTrackr WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B08EAC210FFE2E00DC0C7D /* XrciseTrackrX10 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "XrciseTrackrX10 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B08EB1210FFE2E00DC0C7D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		C5B08EB3210FFE2E00DC0C7D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		C5B08EB5210FFE2E00DC0C7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5B08EB7210FFE2E00DC0C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B08EC7211003AC00DC0C7D /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		C5B08ECA211003B700DC0C7D /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.3.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		C5B08ECC211004BE00DC0C7D /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B08EC8211003AC00DC0C7D /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B08ECB211003B700DC0C7D /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,18 +115,20 @@
 			isa = PBXGroup;
 			children = (
 				C5B08E8D210FFE2C00DC0C7D /* XrciseTrackr */,
-				C5B08EA1210FFE2D00DC0C7D /* XrciseTrackr WatchKit App */,
+				C5B08EA1210FFE2D00DC0C7D /* XrciseTrackr Watchkit App */,
 				C5B08EB0210FFE2E00DC0C7D /* XrciseTrackr WatchKit Extension */,
+				C5B08ECE2110073E00DC0C7D /* Shared */,
 				C5B08E8C210FFE2C00DC0C7D /* Products */,
+				C5B08EC6211003AC00DC0C7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		C5B08E8C210FFE2C00DC0C7D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C5B08E8B210FFE2C00DC0C7D /* XrciseTrackr.app */,
-				C5B08E9D210FFE2D00DC0C7D /* XrciseTrackr WatchKit App.app */,
-				C5B08EAC210FFE2E00DC0C7D /* XrciseTrackr WatchKit Extension.appex */,
+				C5B08E8B210FFE2C00DC0C7D /* XrciseTrackrX10.app */,
+				C5B08E9D210FFE2D00DC0C7D /* XrciseTrackrX10 WatchKit App.app */,
+				C5B08EAC210FFE2E00DC0C7D /* XrciseTrackrX10 WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +136,7 @@
 		C5B08E8D210FFE2C00DC0C7D /* XrciseTrackr */ = {
 			isa = PBXGroup;
 			children = (
+				C55E4D0B2112BDD600E0F593 /* XrciseTrackr.entitlements */,
 				C5B08E8E210FFE2C00DC0C7D /* AppDelegate.swift */,
 				C5B08E90210FFE2C00DC0C7D /* ViewController.swift */,
 				C5B08E92210FFE2C00DC0C7D /* Main.storyboard */,
@@ -133,19 +147,21 @@
 			path = XrciseTrackr;
 			sourceTree = "<group>";
 		};
-		C5B08EA1210FFE2D00DC0C7D /* XrciseTrackr WatchKit App */ = {
+		C5B08EA1210FFE2D00DC0C7D /* XrciseTrackr Watchkit App */ = {
 			isa = PBXGroup;
 			children = (
 				C5B08EA2210FFE2D00DC0C7D /* Interface.storyboard */,
 				C5B08EA5210FFE2E00DC0C7D /* Assets.xcassets */,
 				C5B08EA7210FFE2E00DC0C7D /* Info.plist */,
 			);
+			name = "XrciseTrackr Watchkit App";
 			path = "XrciseTrackr WatchKit App";
 			sourceTree = "<group>";
 		};
 		C5B08EB0210FFE2E00DC0C7D /* XrciseTrackr WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				C55E4D0A2112BDCA00E0F593 /* XrciseTrackr WatchKit Extension.entitlements */,
 				C5B08EB1210FFE2E00DC0C7D /* InterfaceController.swift */,
 				C5B08EB3210FFE2E00DC0C7D /* ExtensionDelegate.swift */,
 				C5B08EB5210FFE2E00DC0C7D /* Assets.xcassets */,
@@ -154,12 +170,29 @@
 			path = "XrciseTrackr WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		C5B08EC6211003AC00DC0C7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5B08ECA211003B700DC0C7D /* HealthKit.framework */,
+				C5B08EC7211003AC00DC0C7D /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5B08ECE2110073E00DC0C7D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C5B08ECC211004BE00DC0C7D /* HealthKitManager.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C5B08E8A210FFE2C00DC0C7D /* XrciseTrackr */ = {
+		C5B08E8A210FFE2C00DC0C7D /* XrciseTrackrX10 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5B08EC2210FFE2E00DC0C7D /* Build configuration list for PBXNativeTarget "XrciseTrackr" */;
+			buildConfigurationList = C5B08EC2210FFE2E00DC0C7D /* Build configuration list for PBXNativeTarget "XrciseTrackrX10" */;
 			buildPhases = (
 				C5B08E87210FFE2C00DC0C7D /* Sources */,
 				C5B08E88210FFE2C00DC0C7D /* Frameworks */,
@@ -171,14 +204,14 @@
 			dependencies = (
 				C5B08EA0210FFE2D00DC0C7D /* PBXTargetDependency */,
 			);
-			name = XrciseTrackr;
+			name = XrciseTrackrX10;
 			productName = XrciseTrackr;
-			productReference = C5B08E8B210FFE2C00DC0C7D /* XrciseTrackr.app */;
+			productReference = C5B08E8B210FFE2C00DC0C7D /* XrciseTrackrX10.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C5B08E9C210FFE2D00DC0C7D /* XrciseTrackr WatchKit App */ = {
+		C5B08E9C210FFE2D00DC0C7D /* XrciseTrackrX10 WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5B08EBE210FFE2E00DC0C7D /* Build configuration list for PBXNativeTarget "XrciseTrackr WatchKit App" */;
+			buildConfigurationList = C5B08EBE210FFE2E00DC0C7D /* Build configuration list for PBXNativeTarget "XrciseTrackrX10 WatchKit App" */;
 			buildPhases = (
 				C5B08E9B210FFE2D00DC0C7D /* Resources */,
 				C5B08EBD210FFE2E00DC0C7D /* Embed App Extensions */,
@@ -188,14 +221,14 @@
 			dependencies = (
 				C5B08EAF210FFE2E00DC0C7D /* PBXTargetDependency */,
 			);
-			name = "XrciseTrackr WatchKit App";
+			name = "XrciseTrackrX10 WatchKit App";
 			productName = "XrciseTrackr WatchKit App";
-			productReference = C5B08E9D210FFE2D00DC0C7D /* XrciseTrackr WatchKit App.app */;
+			productReference = C5B08E9D210FFE2D00DC0C7D /* XrciseTrackrX10 WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		C5B08EAB210FFE2E00DC0C7D /* XrciseTrackr WatchKit Extension */ = {
+		C5B08EAB210FFE2E00DC0C7D /* XrciseTrackrX10 WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5B08EBA210FFE2E00DC0C7D /* Build configuration list for PBXNativeTarget "XrciseTrackr WatchKit Extension" */;
+			buildConfigurationList = C5B08EBA210FFE2E00DC0C7D /* Build configuration list for PBXNativeTarget "XrciseTrackrX10 WatchKit Extension" */;
 			buildPhases = (
 				C5B08EA8210FFE2E00DC0C7D /* Sources */,
 				C5B08EA9210FFE2E00DC0C7D /* Frameworks */,
@@ -205,9 +238,9 @@
 			);
 			dependencies = (
 			);
-			name = "XrciseTrackr WatchKit Extension";
+			name = "XrciseTrackrX10 WatchKit Extension";
 			productName = "XrciseTrackr WatchKit Extension";
-			productReference = C5B08EAC210FFE2E00DC0C7D /* XrciseTrackr WatchKit Extension.appex */;
+			productReference = C5B08EAC210FFE2E00DC0C7D /* XrciseTrackrX10 WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -222,16 +255,34 @@
 				TargetAttributes = {
 					C5B08E8A210FFE2C00DC0C7D = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					C5B08E9C210FFE2D00DC0C7D = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 					C5B08EAB210FFE2E00DC0C7D = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit.watchos = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = C5B08E86210FFE2C00DC0C7D /* Build configuration list for PBXProject "XrciseTrackr" */;
+			buildConfigurationList = C5B08E86210FFE2C00DC0C7D /* Build configuration list for PBXProject "XrciseTrackrX10" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -244,9 +295,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C5B08E8A210FFE2C00DC0C7D /* XrciseTrackr */,
-				C5B08E9C210FFE2D00DC0C7D /* XrciseTrackr WatchKit App */,
-				C5B08EAB210FFE2E00DC0C7D /* XrciseTrackr WatchKit Extension */,
+				C5B08E8A210FFE2C00DC0C7D /* XrciseTrackrX10 */,
+				C5B08E9C210FFE2D00DC0C7D /* XrciseTrackrX10 WatchKit App */,
+				C5B08EAB210FFE2E00DC0C7D /* XrciseTrackrX10 WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -288,6 +339,7 @@
 			files = (
 				C5B08E91210FFE2C00DC0C7D /* ViewController.swift in Sources */,
 				C5B08E8F210FFE2C00DC0C7D /* AppDelegate.swift in Sources */,
+				C5B08ECF2110074900DC0C7D /* HealthKitManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B08ECD211004BE00DC0C7D /* HealthKitManager.swift in Sources */,
 				C5B08EB4210FFE2E00DC0C7D /* ExtensionDelegate.swift in Sources */,
 				C5B08EB2210FFE2E00DC0C7D /* InterfaceController.swift in Sources */,
 			);
@@ -305,12 +358,12 @@
 /* Begin PBXTargetDependency section */
 		C5B08EA0210FFE2D00DC0C7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C5B08E9C210FFE2D00DC0C7D /* XrciseTrackr WatchKit App */;
+			target = C5B08E9C210FFE2D00DC0C7D /* XrciseTrackrX10 WatchKit App */;
 			targetProxy = C5B08E9F210FFE2D00DC0C7D /* PBXContainerItemProxy */;
 		};
 		C5B08EAF210FFE2E00DC0C7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C5B08EAB210FFE2E00DC0C7D /* XrciseTrackr WatchKit Extension */;
+			target = C5B08EAB210FFE2E00DC0C7D /* XrciseTrackrX10 WatchKit Extension */;
 			targetProxy = C5B08EAE210FFE2E00DC0C7D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -461,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "XrciseTrackr WatchKit Extension/XrciseTrackr WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2VUP6ULP4;
 				INFOPLIST_FILE = "XrciseTrackr WatchKit Extension/Info.plist";
@@ -469,13 +523,13 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.crisdenopol.XrciseTrackr.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crisdenopol.XrciseTrackrX10.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Debug;
 		};
@@ -483,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "XrciseTrackr WatchKit Extension/XrciseTrackr WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2VUP6ULP4;
 				INFOPLIST_FILE = "XrciseTrackr WatchKit Extension/Info.plist";
@@ -491,13 +546,13 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.crisdenopol.XrciseTrackr.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crisdenopol.XrciseTrackrX10.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Release;
 		};
@@ -510,13 +565,13 @@
 				DEVELOPMENT_TEAM = M2VUP6ULP4;
 				IBSC_MODULE = XrciseTrackr_WatchKit_Extension;
 				INFOPLIST_FILE = "XrciseTrackr WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crisdenopol.XrciseTrackr.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crisdenopol.XrciseTrackrX10.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Debug;
 		};
@@ -529,13 +584,13 @@
 				DEVELOPMENT_TEAM = M2VUP6ULP4;
 				IBSC_MODULE = XrciseTrackr_WatchKit_Extension;
 				INFOPLIST_FILE = "XrciseTrackr WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crisdenopol.XrciseTrackr.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crisdenopol.XrciseTrackrX10.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Release;
 		};
@@ -543,17 +598,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XrciseTrackr/XrciseTrackr.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2VUP6ULP4;
 				INFOPLIST_FILE = XrciseTrackr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.crisdenopol.XrciseTrackr;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crisdenopol.XrciseTrackrX10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -561,24 +618,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XrciseTrackr/XrciseTrackr.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2VUP6ULP4;
 				INFOPLIST_FILE = XrciseTrackr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.crisdenopol.XrciseTrackr;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crisdenopol.XrciseTrackrX10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C5B08E86210FFE2C00DC0C7D /* Build configuration list for PBXProject "XrciseTrackr" */ = {
+		C5B08E86210FFE2C00DC0C7D /* Build configuration list for PBXProject "XrciseTrackrX10" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5B08EB8210FFE2E00DC0C7D /* Debug */,
@@ -587,7 +646,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5B08EBA210FFE2E00DC0C7D /* Build configuration list for PBXNativeTarget "XrciseTrackr WatchKit Extension" */ = {
+		C5B08EBA210FFE2E00DC0C7D /* Build configuration list for PBXNativeTarget "XrciseTrackrX10 WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5B08EBB210FFE2E00DC0C7D /* Debug */,
@@ -596,7 +655,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5B08EBE210FFE2E00DC0C7D /* Build configuration list for PBXNativeTarget "XrciseTrackr WatchKit App" */ = {
+		C5B08EBE210FFE2E00DC0C7D /* Build configuration list for PBXNativeTarget "XrciseTrackrX10 WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5B08EBF210FFE2E00DC0C7D /* Debug */,
@@ -605,7 +664,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5B08EC2210FFE2E00DC0C7D /* Build configuration list for PBXNativeTarget "XrciseTrackr" */ = {
+		C5B08EC2210FFE2E00DC0C7D /* Build configuration list for PBXNativeTarget "XrciseTrackrX10" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5B08EC3210FFE2E00DC0C7D /* Debug */,

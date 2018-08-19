@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>XrciseTrackr WatchKit App</string>
+	<string>XrciseTrackr</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -26,7 +26,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.crisdenopol.XrciseTrackr</string>
+	<string>com.crisdenopol.XrciseTrackrX10</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>
